@@ -1,0 +1,12 @@
+[package]
+name = "wakawaka"
+version = "0.1.0"
+authors = ["natefinger"]
+edition = "2018"
+
+[lib]
+name = "wakawaka"
+crate-type = ["dylib"]
+path = "src/lib.rs"
+
+[dependencies]
